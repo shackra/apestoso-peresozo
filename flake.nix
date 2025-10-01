@@ -56,6 +56,27 @@
         }
       );
 
+      packages = forEachSupportedSystem (
+        { pkgs }:
+        {
+          default = pkgs.python313Packages.buildPythonApplication {
+            pname = "apestoso-perezoso";
+            version = "0.1.0";
+
+            src = builtins.path {
+              path = ./.;
+              name = "fuente";
+            };
+
+            propagatedBuildInputs = with pkgs.python313Packages; [
+              evdev
+            ];
+
+            installPhase = ''
+              mkdir -p $out/bin
+              cp ${./grabar.py} $out/bin/apestoso
+              cp ${./reproducir.py} $out/bin/peresozo
+              chmod +x $out/bin/apestoso $out/bin/peresozo
             '';
           };
         }
