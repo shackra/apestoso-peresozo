@@ -85,6 +85,6 @@ En mi caso (un XBox One) el control sería `event26`, y su ubicación absoluta `
 6. (Opcional y aclaración para la palabra "desatendida") Supervise la reproducción de la grabación por un tiempo prudencial para tener completa seguridad que todo trabaja como se espera. Si es así, puede dedicarse a otras cosas mientras `peresozo` *granjea* por ud.
 
 > [!CAUTION]
-> NO ME HAGO RESPONSABLE POR LE MAL USO DE LOS SCRIPTS
+> NO ME HAGO RESPONSABLE POR EL MAL USO DE LOS SCRIPTS
 > PROVISTOS EN ESTE PROYECTO.
 
