@@ -11,9 +11,9 @@
   # Flake outputs that other flakes can use
   outputs =
     {
-      self,
       flake-schemas,
       nixpkgs,
+      ...
     }:
     let
       # Helpers for producing system-specific outputs
