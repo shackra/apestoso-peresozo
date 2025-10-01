@@ -8,7 +8,8 @@ import time
 from evdev import AbsInfo, InputEvent, UInput, ecodes
 
 parser = argparse.ArgumentParser(
-    description="Reproduce las entradas grabadas de un control de videojuegos."
+    description="Reproduce las entradas grabadas de un control de videojuegos (Licencia: GPLv3+).",
+    epilog="Autor: Jorge Javier Araya Navarro <jorge@esavara.cr>",
 )
 parser.add_argument(
     "entrada",

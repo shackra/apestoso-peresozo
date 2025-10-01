@@ -8,7 +8,8 @@ from os.path import abspath
 from evdev import InputDevice
 
 parser = argparse.ArgumentParser(
-    description="Graba las entradas de un control de videojuegos."
+    description="Graba las entradas de un control de videojuegos. (Licencia: GPLv3+)",
+    epilog="Autor: Jorge Javier Araya Navarro <jorge@esavara.cr>",
 )
 parser.add_argument(
     "control",
