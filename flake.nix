@@ -46,18 +46,16 @@
               (with pkgs.python313Packages; [
                 python
                 evdev
-                venvShellHook
                 ty
+                black
+                isort
               ])
               nil
             ];
+          };
+        }
+      );
 
-            venvDir = "./.venv";
-            postVenvCreation = ''
-              unset SOURCE_DATE_EPOCH
-            '';
-            postShellHook = ''
-              unset SOURCE_DATE_EPOCH
             '';
           };
         }
