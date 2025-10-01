@@ -16,7 +16,7 @@ Luego de reconstruir su sistema operativo con la nueva configuración, debe rein
 
 ### Para usuarios que no usan Nix o NixOS
 
-> [!Error]
+> [!NOTE]
 > Por hacer...
 
 ### Para usuarios de Nix o NixOS con Flakes
@@ -74,7 +74,7 @@ En mi caso (un XBox One) el control sería `event26`, y su ubicación absoluta `
 
 3. Para grabar, en la terminal invoque `apestoso /dev/input/event26 ~/grabacion.json`, nótese que ud debe usar la ubicación absoluta del control en su sistema ¡si no ve texto durante la grabación se equivoco de dispositivo!. También debe especificar donde se guardará la grabación, para este ejemplo elegí mi carpeta personal (`~`).
 
-> [!INFO] 
+> [!CAUTION] 
 > Se recomienda que el juego este listo antes de empezar a
 > grabar los comandos del control.
 
@@ -84,7 +84,7 @@ En mi caso (un XBox One) el control sería `event26`, y su ubicación absoluta `
 
 6. (Opcional y aclaración para la palabra "desatendida") Supervise la reproducción de la grabación por un tiempo prudencial para tener completa seguridad que todo trabaja como se espera. Si es así, puede dedicarse a otras cosas mientras `peresozo` *granjea* por ud.
 
-> [!INFO]
+> [!CAUTION]
 > NO ME HAGO RESPONSABLE POR LE MAL USO DE LOS SCRIPTS
 > PROVISTOS EN ESTE PROYECTO.
 
