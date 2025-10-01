@@ -44,7 +44,7 @@ outputs = { ..., apestoso-peresozo }:
   nixosConfiguration.cambiar_por_su_maquina = nixpkgs.lib.nixosSystem {
     modules = [
 	  # ...
-	  environment.systemPackages = [ apestoso-peresozo.packages."x86_64-linux".default ]; # x86_64-linux porque se asume que esta usando GNU/Linux
+	  { environment.systemPackages = [ apestoso-peresozo.packages."x86_64-linux".default ]; } # x86_64-linux porque se asume que esta usando GNU/Linux
 	];
 	  # ...
   };
